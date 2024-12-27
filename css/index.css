@@ -1,0 +1,37 @@
+@import "./main.css";
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 4vw;
+    margin-bottom: -5vw;
+    width: 70vw;
+    color: rgb(0, 0, 0);
+    border-bottom: 0.3vw solid rgb(250, 167, 33);
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    padding: 10vw;
+}
+.card img{
+    height: 25vw;
+    width: 35vw;
+}
+
+.text{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    font-size: 1.2vw;
+}
+.text h2{
+    font-size: 3vw;
+    margin-bottom: 3vw;
+}

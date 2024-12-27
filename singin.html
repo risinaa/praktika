@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/singin.css">
+    <title>Subnautica</title>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"><span>SUB</span>NAUTICA</a>
+
+        <ul>
+            <li class="item "><a href="./index.html"> Главная</a></li>
+            <li class="item"><a href="./galery.html"> Галерея</a></li>
+            <li class="item"><a href="./search.html"> Поиск</a></li>
+            <li class="item"><a href="./test.html"> Тест</a></li>
+            <li class="item"><a href="./profile.html" id="header_login">Профиль</a></li>
+            <button id="out">Выход</button>
+
+        </ul>
+    </header>
+    <main>
+        <form name="form" novalidate class="form">
+            <input type="text" id="login_input" name="login_input" placeholder="Логин" pattern="[А-Я][а-я[0-9]+]+" required>
+            <div class="erorr_output">С большой буквы(Кириллица) и цифры, 4-10 символов</div>
+            <input type="date" id="date_input" name="date_input" min="1924-12-01" max="2024-12-28" required>
+            <div class="erorr_output">В пределах 01.12.1924 - 28.12.2024</div>
+        
+            <select id="sex" name="sex" class="sex">
+                <option value="муж">муж</option>
+                <option value="жен">жен</option>
+                <option value="да">да</option>
+            </select>
+            <div class="erorr_output"></div>
+            <button id="btn_singIn" type="submit">Войти</button>
+        
+        </form>
+
+    </main>
+
+    <footer>
+        <img src="./img/media/free-icon-facebook-4494479.png" alt="">
+        <img src="./img/media/free-icon-gmail-4926637.png" alt="">
+        <img src="./img/media/free-icon-pinterest-2504932.png" alt="">
+        <img src="./img/media/free-icon-telegram-3670137.png" alt="">
+        <img src="./img/media/free-icon-twitch-2504946.png" alt="">
+    
+        <h1>Subnautica 2024г</h1>
+    </footer>
+
+    <script src="./js/singin.js"></script>
+</body>
+
+</html>

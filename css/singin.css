@@ -1,0 +1,36 @@
+@import "./main.css";
+
+.erorr_output{
+    opacity: 0;
+    color: rgb(149, 0, 0);
+}
+
+main{
+    padding-top: 15vw;
+    text-align: center;
+}
+
+.form input{
+    text-align: center;
+    background-color: white;
+    width: 30vw;
+}
+.sex{
+    background-color: white;
+    width: 30vw;
+}
+
+#btn_singIn{
+    margin-top: 3vw;
+    background-color: rgb(245, 142, 25);
+    color: white;
+    padding: 1vw;
+    height: 5vw;
+    width: 20vw;
+    border-radius: 5vw 0vw 5vw 0vw;
+
+    transition: 0.5s;
+}
+#btn_singIn:hover {
+    background-color: rgb(92, 119, 172);
+}

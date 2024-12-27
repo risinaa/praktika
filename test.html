@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/test.css">
+    <title>Subnautica</title>
+
+</head>
+
+<body>
+
+    <header>
+        <a href="./index.html" class="logo"><span>SUB</span>NAUTICA</a>
+
+        <ul>
+            <li class="item "><a href="./index.html"> Главная</a></li>
+            <li class="item"><a href="./galery.html"> Галерея</a></li>
+            <li class="item"><a href="./search.html"> Поиск</a></li>
+            <li class="item here"><a href="./test.html"> Тест</a></li>
+            <li class="item "><a href="./profile.html" id="header_login">Профиль</a></li>
+            <button id="out">Выход</button>
+
+        </ul>
+    </header>
+
+    <main>
+        <form name="test_form" novalidate class="test-form">
+            <div class="vopros">
+                <h2>1. Название корабля, потерпевшего крушение в самом начале игры</h2>
+                <label><input type="radio" name="v1" class="radio" value="1">Солнечный луч</label>
+                <label><input type="radio" name="v1" class="radio" value="2">Мореход</label>
+                <label><input type="radio" name="v1" class="radio" value="3">Мотылек</label>
+                <label class="true"><input type="radio" name="v1" class="radio" value="0">Аврора</label>
+        
+        
+            </div>
+        
+            <div class="vopros">
+                <h2>2. Существо, которое игрок может встретить в мертвых зонах и локации "Затерянная река"</h2>
+                <label class="true"><input type="radio" name="v2" class="radio" value="0">Призрачный Левиафан</label>
+                <label><input type="radio" name="v2" class="radio" value="1">Морской император</label>
+                <label><input type="radio" name="v2" class="radio" value="2">Сталкер</label>
+                <label><input type="radio" name="v2" class="radio" value="3">Ласка</label>
+        
+            </div>
+        
+            <div class="vopros">
+                <h2>3. Один из компонентов для создания батареек</h2>
+                <label class="true"><input type="radio" name="v3" class="radio" value="0">Кислотный гриб</label>
+                <label><input type="radio" name="v3" class="radio" value="1">Розовочепец</label>
+                <label><input type="radio" name="v3" class="radio" value="2">Пластинчатый коралл</label>
+                <label><input type="radio" name="v3" class="radio" value="3">Морской венец</label>
+        
+            </div>
+        
+            <div class="vopros">
+                <h2>4. Бактериальный патоген, распространенный в водах Планеты 4546B</h2>
+                <p><input type="text" name="v4" class="text" required pattern="[хХ]араа"></p>
+                <p class="true2 otv">Хараа</p>
+        
+            </div>
+        
+            <div class="vopros">
+                <h2>5. Предмет, при помощи которого игрок может исследовать предметы для получения чертежей</h2>
+                <p><input type="text" name="v5" class="text" required pattern="[сС]канер"></p>
+                <p class="true2 otv">Сканер</p>
+        
+            </div>
+
+            <div class="vopros">
+                <h2>6. Базовый ресурс для строительства и создания многих инструментов</h2>
+                <p><input type="text" name="v6" class="text" required pattern="[тТ]итан"></p>
+                <p class="true2 otv">Титан</p>
+        
+            </div>
+
+            <button type="submit" id="btn_otp">Узнать ответы</button>
+        </form>
+        <button id="reset">Заново</button>
+        <div id="result">0 Баллов</div>
+
+    </main>
+
+    <footer>
+        <img src="./img/media/free-icon-facebook-4494479.png" alt="">
+        <img src="./img/media/free-icon-gmail-4926637.png" alt="">
+        <img src="./img/media/free-icon-pinterest-2504932.png" alt="">
+        <img src="./img/media/free-icon-telegram-3670137.png" alt="">
+        <img src="./img/media/free-icon-twitch-2504946.png" alt="">
+    
+        <h1>Subnautica 2024г</h1>
+    </footer>
+    <script src="./js/user_date.js"></script>
+    <script src="./js/test.js"></script>
+</body>
+
+</html>

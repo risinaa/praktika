@@ -1,0 +1,127 @@
+@import "./main.css";
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    height: 150vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    color: white;
+}
+
+
+.test-form{
+    border-radius: 10vw 10vw 10vw 10vw;
+    background-color: rgb(92, 119, 172);
+
+    width: 60vw;
+    height: 120vw;
+
+    padding-left: 12vw;
+    padding-top: 3vw;
+}
+
+.vopros {
+    margin-bottom: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.vopros h2 {
+    margin-bottom: 1vw;
+}
+.vopros p{
+    border-radius: 10vw 3vw 10vw 3vw;
+}
+
+.radio {
+    margin-left: 10vw;
+    margin-right: 3vw;
+    appearance: none;
+    border: 0.7vw solid rgb(255, 255, 255);
+    border-radius: 10vw;
+
+}
+
+.radio:checked {
+    border: 0.7vw solid rgb(129, 69, 0);
+}
+
+.text {
+    margin-left: 4vw;
+    background-color: white;
+    color: rgb(92, 119, 172);
+
+    height: 3vw;
+}
+
+#btn_otp {
+    position: absolute;
+    top: 119vw;
+    left: 30vw;
+    background-color: rgb(255, 128, 0);
+    border-radius: 10vw 3vw 10vw 3vw;
+    width: 30vw;
+    padding: 1vw;
+    color: white;
+}
+
+
+#btn_otp:hover {
+    background-color: white;
+    color: rgb(255, 128, 0);
+}
+
+#reset {
+    position: absolute;
+    top: 119vw;
+    left: 60vw;
+
+    border-radius: 10vw 3vw 10vw 3vw;
+    background-color: rgb(186, 58, 58);
+    padding: 1vw;
+    color: white;
+    width: 12vw;
+}
+
+#reset:hover {
+
+    background-color: white;
+    color: rgb(186, 58, 58);
+}
+
+
+#result {
+    position: absolute;
+    font-size: 4vw;
+    margin-top: -1vw;
+    margin-left: 15vw;
+    width: 30vw;
+    
+    padding: 3vw;
+    padding-left: 4vw;
+    border-radius: 0vw 0vw 10vw 10vw;
+    background-color: rgb(92, 119, 172);
+
+}
+
+.true {
+    width: 45vw;
+    border-radius: 10vw 3vw 10vw 3vw;
+}
+
+.true2 {
+    text-align: center;
+    opacity: 0;
+    color: #ffffff;
+    width: 20vw;
+}
+
+
+.otv {
+    margin-left: 7vw;
+}
+
+

@@ -1,0 +1,144 @@
+@import "./main.css";
+:root {
+    --el: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+.slider {
+    margin-top: 3vw;
+
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    position: absolute;
+    top: 3vw;
+    left: 60vw;
+
+}
+
+.title{
+    font-family: "DaysOne";
+
+    font-size: 4vw;
+
+    position: absolute;
+    top: 4vw;
+    left: 12vw;
+    text-align: center;
+}
+
+#text{
+    z-index: 1;
+
+    text-align: center;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 10vw;
+    left: 5vw;
+
+    padding: 1vw;
+    padding-top: 3vw;
+
+    color: white;
+
+    background-color: rgb(77, 109, 137);
+    height: 23vw;
+    width: 30vw;
+
+
+    border-radius: 5vw 5vw 5vw 5vw;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
+.btn-backward{
+    position: absolute;
+    top: 35vw;
+    left: 5vw;
+    font-size: 4vw;
+
+    width: 5vw;
+    height: 5vw;
+
+    color: white;
+    background-color: rgb(77, 109, 137);
+    border-radius: 1vw 5vw 1vw 5vw;
+}
+
+.btn-forward{
+    position: absolute;
+    top: 35vw;
+    left: 30vw;
+    font-size: 4vw;
+    
+    width: 5vw;
+    height: 5vw;
+
+    color: white;
+    background-color: rgb(77, 109, 137);
+    border-radius: 5vw 1vw 5vw 1vw;
+}
+
+
+
+.btn-backward:hover {
+    background-color: rgb(245, 142, 25);
+}
+
+.btn-forward:hover {
+    background-color: rgb(245, 142, 25);
+}
+
+
+
+#count{
+    z-index: 0;
+    position: absolute;
+    top: 31vw;
+    left: 15vw;
+    font-size: 4vw;
+
+    width: 10vw;
+    padding-left: 3.6vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+    color: white;
+    background-color: rgb(77, 109, 137);
+    border-radius: 1vw 1vw 6vw 6vw;
+}
+
+
+.def img {
+    height: 30vw;
+    width: 60vw;
+}
+
+
+.def {
+    transition: 1s;
+    display: none;
+    opacity: 0;
+    transform: translateX(var(--el));
+}
+
+.showText {
+    display: flex;
+}
+
+.yesText {
+    opacity: 1;
+
+}

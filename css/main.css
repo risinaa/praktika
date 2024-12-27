@@ -1,0 +1,148 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: 'DaysOne';
+    src: url("../fonts/DaysOne.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    font-family: "DaysOne";
+    font-size: 2vw;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.logo{
+    padding: 1vw;
+    transition: 0.5s;
+    font-size: 2vw;
+    color: rgb(92, 119, 172);
+}
+
+.logo span{
+    color: rgb(245, 142, 25);
+}
+
+.logo:hover{
+    color: rgb(92, 119, 172);
+}
+
+
+
+header{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+
+    font-size: 1.5vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+header ul{
+    margin-left: 25vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.item{
+    padding-top: 1vw;
+}
+
+.item a{
+    padding: 1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    transition: 0.5s;
+    color: black;
+}
+
+.item a:hover{
+    background-color: rgb(92, 119, 172);
+    color: rgb(255, 255, 255);
+
+    padding-bottom: 2vw;
+    transition:0.5s;
+    border-radius: 0vw 0vw 1vw 1vw;
+}
+
+
+.here a {
+    background-color: rgb(92, 119, 172);
+    color: rgb(255, 255, 255);
+
+
+    padding-bottom: 1.1vw;
+    transition: 0.5s;
+}
+
+#out{
+    padding: 1vw;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
+    border-radius: 0vw 0vw 5vw 5vw;
+    
+    position: fixed;
+    right: 1vw;
+    color: white;
+    background-color: rgb(245, 142, 25);
+
+    transition: 0.3s;
+}
+
+#out:hover {
+    color: white;
+    transition: 0.3s;
+
+    padding-top: 3vw;
+    padding-bottom: 4vw;
+    border-radius: 0vw 0vw 10vw 10vw;
+}
+
+main{
+    padding-top: 5vw;
+    background-color: rgb(238, 238, 238);
+    height: 50vw;
+}
+
+
+footer{
+    z-index: 3;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 16vw;
+    padding-top: 3vw;
+
+    text-align: center;
+}
+
+footer img{
+    margin-left: 5vw;
+    height: 5vw;
+    width: 5vw;
+}
+footer h1{
+    margin-top: 4vw;
+    color: white;
+}
+
+
+
+/*
+
+
+    background: url('/img/background/5.png');
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+rgb(245, 142, 25);
+        background-color: rgb(172, 92, 115);
+    color: rgb(245, 142, 25);
+*/

@@ -1,0 +1,26 @@
+@import "./main.css";
+
+main{
+    text-align: center;
+    padding-top: 10vw;
+    font-size: 4vw;
+    justify-items: center;
+}
+
+.info{
+    background-color: rgb(77, 109, 137);
+    color: white;
+    
+    border-radius: 3vw 10vw 3vw 10vw;
+    width: 60vw;
+    padding: 1vw;
+
+}
+#result{
+    color: white;
+    background-color: rgb(245, 142, 25);
+    border-radius: 10vw 5vw 10vw 5vw;
+    padding: 1vw;
+}
+/*
+*/
