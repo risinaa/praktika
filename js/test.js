@@ -1,12 +1,12 @@
 let test  = document.forms.test_form;
 
-
+let flag = true
 test.addEventListener('submit', (event)=>{
     event.preventDefault();
-    let count = 0;
+    if(flag){ let count = 0;
     let answer = document.getElementsByClassName('true');
     let answer2 = document.getElementsByClassName('true2');
-    
+    flag =false
     if(test.elements.v4.validity.valid){
         count++;
     }
@@ -41,7 +41,7 @@ test.addEventListener('submit', (event)=>{
     sessionStorage.setItem("result", count);
 
     document.getElementById("result").innerText =  count + " Баллов";
-
+    }
  
 })
 
@@ -52,7 +52,7 @@ function reset(){
     let answer2 = document.getElementsByClassName('true2');
     sessionStorage.setItem("result", 0);
     count =0
-
+    flag = true
     for (i = 0; i < answer.length; i++) {
         answer[i].style.backgroundColor = "";
     }
